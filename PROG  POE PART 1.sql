@@ -254,7 +254,36 @@ VALUES
 --NULL
 --)
 
+--INSERT INTO EVENTCATEGORIES
+--(
+--   EVENTID,
+--   CATEGORYID
+--)
+--VALUES
+--(1,1),
+--(1,2),
 
+--(2,2),
+--(2,3),
+--(2,4),
+
+--(3,1),
+--(3,2);
+
+--INSERT INTO ENROLMENTS
+--(
+-- USERID,
+-- EVENTID,
+--CATEGORYID,
+--STATUS
+--)
+
+--VALUES
+--(3, 1, 2, 'ACTIVE'),
+--(4, 1, 1, 'ACTIVE'),
+--(3, 2, 3, 'ACTIVE'),
+--(4, 2, 4, 'ACTIVE'),
+--(3, 3, 1, 'ACTIVE');
   
 
 
