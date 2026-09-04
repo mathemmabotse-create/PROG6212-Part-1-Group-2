@@ -221,39 +221,38 @@ VALUES
 --  1
 --);
   
- INSERT INTO Categories
-(
-CategoryName, 
-Description, 
-MinimumAge, 
-MaximumAge
-)
-VALUES
-(
-' 5 KM',
-"Five kilometre fun run.',
-10, 
-NULL
-),
-(
-'10 KM',
-"Ten kilometre road race.',
-14,
-NULL
-),
-(
-'21 KM',
-'Half marathon category.',
-16,
-NULL
-),
-(
-'42 KM',
-'Full marathon category.',
-18, 
-NULL
-);
-  
+ -- INSERT INTO CATEGORIES
+--(
+--CATEGORYNAME, 
+--DESCRIPTION, 
+--MINIMUMAGE, 
+--MAXIMUMAGE
+--)
+--VALUES
+--(
+--' 5 KM',
+--'FIVE KILOMETER ROAD RACE.',
+--10, 
+--NULL
+--),
+--(
+--'10 KM',
+--'TEN KILOMETER ROAD RACE.',
+--14,
+--NULL
+--),
+--(
+--'21 KM',
+--'HALF  MARATHON CATEGORY.',
+--16,
+--NULL
+--),
+--(
+--'42 KM',
+--'Full MARATHON CATEGORY.',
+--18, 
+--NULL
+--)
 
 
   
